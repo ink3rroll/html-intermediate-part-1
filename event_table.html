@@ -3,9 +3,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Table</title>
+    <style>
+        table {
+            width: 100%;
+                border-collapse: collapse;
+                }
+            th, td {
+            border: 1px solid #782d2d;
+                padding: 8px;
+                text-align: center;
+                }
+            th {
+            background-color: #b09b9b;
+                }
+                tbody tr:nth-child(odd) {
+                background-color: #dee5f2;
+                color: #fff;
+                }
+            
+            </style>
 </head>
 <body>
     <table>
+        <tr>
+            <th colspan="2">Event Details</th>
+        </tr>
         <tr>
             <th>Event Name</th>
             <th>Date</th>
